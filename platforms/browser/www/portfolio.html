@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio | Altrim Asani</title>
+	<meta name="author" content="Altrim Asani">
+	<meta name="description" content="Altrim Asani - Personal Website">
+    <meta name="keywords" content="web, software, hosting, programming, web development, software development, web solutions, software solutions, web hosting">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/lightbox.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<!--[if IE 9]> 
+		<style type="text/css">
+			.page-title, .profile-info p, .process-part, .contact-details li, #portfolio-wrapper {opacity: 1; filter: alpha(opacity=100);}
+		</style> 
+	<![endif]-->	
+	<link rel="shortcut icon" href="img/pgiconb.png">
+	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600,800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="font/font-awesome.min.css">	
+</head>
+<body>
+<i id="back-top" class="icon-angle-up downscaled"></i>
+<div id="wrapper">
+	<header id="header" class="">	
+		<div id="background-slider" class="cycle-slideshow" data-cycle-fx="fade" data-cycle-timeout="2500" data-cycle-slides="> div">
+			<div class="bg-slides bg-slide-01"></div>
+			<div class="bg-slides bg-slide-02"></div>
+			<div class="bg-slides bg-slide-03"></div>
+		</div>	
+		
+		<video id="bg-video" width="1920" height="1080" poster="video/poster.jpg" controls="controls" preload="auto">
+			<!-- MP4 for Safari, IE9, iPhone, iPad, Android, and Windows Phone 7 -->
+			<source type="video/mp4" src="video/onemore.mp4" />
+			<!-- WebM/VP8 for Firefox4, Opera, and Chrome -->
+			<source type="video/webm" src="video/onemore.webm" />
+			<!-- Ogg/Vorbis for older Firefox and Opera versions -->
+			<source type="video/ogg" src="video/onemore.ogv" />
+			<!-- Flash fallback for non-HTML5 browsers without JavaScript -->
+			<object width="320" height="240" type="application/x-shockwave-flash" data="flashmediaelement.swf">
+				<param name="movie" value="js/flashmediaelement.swf" />
+				<param name="flashvars" value="video/onemore.mp4" />
+				<img src="video/poster.jpg" width="320" height="240" alt="poster" title="No video playback capabilities" />
+			</object>
+		</video>		
+	
+		<div class="name-area">
+			<h1><span class="logo"></span>Altrim Asani</h1>
+			<p>An adaptable, conscientious and energetic individual, communicator who can relate to people of all levels.</p>
+		</div>
+        
+		<nav id="navbar">
+			<div class="container">
+				<div class="sixteen columns">
+					<div class="mobile-menu">
+							<i class="icon-list"></i>
+					</div>		
+                </div>
+				<div class="sixteen columns">
+					<ul class="menu">
+						<li data-submenu="profile" class="multi-menu">
+							<a href="index.html"><i class="icon-user"><span>My profile</span></i></a>
+						</li>
+						<li data-submenu="services" class="multi-menu">
+							<a href="services.html"><i class="icon-suitcase"><span>Services</span></i></a>
+						</li>					
+						<li data-submenu="portfolio" class="multi-menu">
+							<a href="portfolio.html" class="active"><span class="bullet"></span><i class="icon-picture"><span>Portfolio</span></i></a>
+						</li>					
+						<li>
+							<a href="resume.html"><i class="icon-list"><span>Resume</span></i></a>
+						</li>
+						<li>
+							<a href="contact.html" class="last"><i class="icon-envelope"><span>Contact</span></i></a>
+						</li>						
+					</ul>
+				</div>	
+			</div>
+		</nav>
+	</header>
+
+	<nav id="submenu">
+		<div class="container">
+			<ul class="submenu" data-submenu="profile">
+				<li><a href="index.html" class=""><i class="icon-user"><span>Profile Details</span></i></a></li>
+				<!--<li><a href=""><i class="icon-reorder"><span></span></i></a></li>-->
+			</ul>
+			<ul class="submenu" data-submenu="services">
+				<li><a href="services.html"><i class="icon-suitcase"><span>Services</span></i></a></li>
+				<!--<li><a href=""><i class="icon-bar-chart"><span></span></i></a></li>-->
+			</ul>			
+			
+			<ul class="submenu" data-submenu="portfolio">
+				<li><a href="portfolio.html" class="active submenu-active"><i class="icon-picture"><span>Portfolio</span></i></a></li>			
+			</ul>			
+		</div>	
+	</nav>
+
+	<section id="intro">
+		<div class="container">
+			<div class="sixteen columns">
+				<h1 class="page-title">[ <span>Portfolio</span> ]</h1>
+				<p class="lead">Portfolio available upon request.</p>
+			</div>
+		</div>
+	</section>	
+
+	<!--<section id="portfolio">
+		<div class="container">
+			<div class="fourteen columns offset-by-one">
+				<div id="filters">
+					<ul class="option-set" data-option-key="filter">
+						<li class="filter"><a href="#filter" data-option-value="*" class="selected">
+							<i class="icon-th"></i><span></span>
+						</a></li>
+						<li class="filter"><a href="#filter" data-option-value=".design">
+							<i class="icon-desktop"></i><span></span>
+						</a></li>
+						<li class="filter"><a href="#filter" data-option-value=".photo">
+							<i class="icon-camera"></i><span></span>
+						</a></li>
+						<li class="filter"><a href="#filter" data-option-value=".paint">
+							<i class="icon-star-half-empty"></i><span></span>
+						</a></li>
+						<li class="filter"><a href="#filter" data-option-value=".sketch">
+							<i class="icon-pencil"></i><span></span>
+						</a></li>	
+					</ul>	
+					<div class="clear"></div>
+                </div>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div id="portfolio-wrapper">
+			<div class="one-third column item photo">			
+					<figure class="portfolio-item">
+						<div class="picture">
+							<div class="overlay">
+								<span class="bullet"></span>
+								<a href="img/portfolio/08.jpg" data-lightbox="image-8" class="zoom">
+									<i class="icon-plus"></i>
+								</a>
+							</div>
+							<img src="img/portfolio/08.jpg" alt=""/>
+						</div>
+						<figcaption>
+							<span></span>
+						</figcaption>	
+					</figure>
+				</div>	
+				
+			<div class="one-third column item photo">			
+					<figure class="portfolio-item">
+						<div class="picture">
+							<div class="overlay">
+								<span class="bullet"></span>
+								<a href="img/portfolio/08.jpg" data-lightbox="image-8" class="zoom">
+									<i class="icon-plus"></i>
+								</a>
+							</div>
+							<img src="img/portfolio/08.jpg" alt=""/>
+						</div>
+						<figcaption>
+							<span></span>
+						</figcaption>	
+					</figure>
+				</div>	
+				
+				<div class="one-third column item photo">			
+					<figure class="portfolio-item">
+						<div class="picture">
+							<div class="overlay">
+								<span class="bullet"></span>
+								<a href="img/portfolio/08.jpg" data-lightbox="image-8" class="zoom">
+									<i class="icon-plus"></i>
+								</a>
+							</div>
+							<img src="img/portfolio/08.jpg" alt=""/>
+						</div>
+						<figcaption>
+							<span></span>
+						</figcaption>	
+					</figure>
+				</div>	
+
+				<div class="one-third column item photo">			
+					<figure class="portfolio-item">
+						<div class="picture">
+							<div class="overlay">
+								<span class="bullet"></span>
+								<a href="img/portfolio/08.jpg" data-lightbox="image-8" class="zoom">
+									<i class="icon-plus"></i>
+								</a>
+							</div>
+							<img src="img/portfolio/08.jpg" alt=""/>
+						</div>
+						<figcaption>
+							<span></span>
+						</figcaption>	
+					</figure>
+				</div>	
+				
+				<div class="one-third column item photo">			
+					<figure class="portfolio-item">
+						<div class="picture">
+							<div class="overlay">
+								<span class="bullet"></span>
+								<a href="img/portfolio/08.jpg" data-lightbox="image-8" class="zoom">
+									<i class="icon-plus"></i>
+								</a>
+							</div>
+							<img src="img/portfolio/08.jpg" alt=""/>
+						</div>
+						<figcaption>
+							<span></span>
+						</figcaption>	
+					</figure>
+				</div>	
+				
+				<div class="one-third column item photo">			
+					<figure class="portfolio-item">
+						<div class="picture">
+							<div class="overlay">
+								<span class="bullet"></span>
+								<a href="img/portfolio/08.jpg" data-lightbox="image-8" class="zoom">
+									<i class="icon-plus"></i>
+								</a>
+							</div>
+							<img src="img/portfolio/08.jpg" alt=""/>
+						</div>
+						<figcaption>
+							<span></span>
+						</figcaption>	
+					</figure>
+				</div>	
+
+				<div class="one-third column item photo">			
+					<figure class="portfolio-item">
+						<div class="picture">
+							<div class="overlay">
+								<span class="bullet"></span>
+								<a href="img/portfolio/08.jpg" data-lightbox="image-8" class="zoom">
+									<i class="icon-plus"></i>
+								</a>
+							</div>
+							<img src="img/portfolio/08.jpg" alt=""/>
+						</div>
+						<figcaption>
+							<span></span>
+						</figcaption>	
+					</figure>
+				</div>	
+
+				<div class="one-third column item photo">			
+					<figure class="portfolio-item">
+						<div class="picture">
+							<div class="overlay">
+								<span class="bullet"></span>
+								<a href="img/portfolio/08.jpg" data-lightbox="image-8" class="zoom">
+									<i class="icon-plus"></i>
+								</a>
+							</div>
+							<img src="img/portfolio/08.jpg" alt=""/>
+						</div>
+						<figcaption>
+							<span></span>
+						</figcaption>	
+					</figure>
+				</div>			
+
+				<div class="one-third column item design sketch">			
+					<figure class="portfolio-item">
+						<div class="picture">
+							<div class="overlay">
+								<span class="bullet"></span>
+								<a href="img/portfolio/09.jpg" data-lightbox="image-9" class="zoom">
+									<i class="icon-plus"></i>
+								</a>
+							</div>
+							<img src="img/portfolio/09.jpg" alt=""/>
+						</div>
+						<figcaption>
+							<span></span>
+						</figcaption>	
+					</figure>
+				</div>				
+				
+			</div>
+		</div>
+	</section>-->
+
+	<section class="button-bar">
+		<div class="container">
+			<div class="sixteen columns">
+				<a href="contact.html" class="button">Contact Me</a>
+			</div>	
+		</div>
+	</section>
+	
+	<footer id="footer">
+		<div class="container">
+			<div class="sixteen columns">
+				<ul class="social-networks">
+					<li><a href="https://www.facebook.com/altrim.asani"><i class="icon-facebook"></i></a></li>
+					<li><a href="https://twitter.com/altr1m"><i class="icon-twitter"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/altrimasani/"><i class="icon-linkedin"></i></a></li>
+					<li><a href="https://plus.google.com/101177485767620442456"><i class="icon-google-plus"></i></a></li>
+					<!--<li><a href="#"><i class="icon-skype"></i></a></li>	-->					
+				</ul>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script type="text/javascript" src="js/lightbox-2.6.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/waypoints.min.js"></script>
+<script type="text/javascript" src="js/waypoints-sticky.min.js"></script>
+<script type="text/javascript" src="js/jquery.cycle2.js"></script>
+<script type="text/javascript" src="js/mediaelement-and-player.min.js"></script>
+<script type="text/javascript">
+$(window).load(function(){
+	var portfolio = (function() {
+		var $container = $('#portfolio-wrapper');
+				$select = $('#filters select');
+				
+		// initialize Isotope
+		$container.isotope({
+		  // options...
+		  resizable: false, // disable normal resizing
+		  // set columnWidth to a percentage of container width
+		  masonry: { columnWidth: $container.width() / 12 }
+		});
+
+		// update columnWidth on window resize
+		$(window).smartresize(function(){
+		  $container.isotope({
+			// update columnWidth to a percentage of container width
+			masonry: { columnWidth: $container.width() / 12 }
+		  });
+		});
+		
+		
+		$container.isotope({
+			itemSelector : '.item'
+		});
+	  
+		$select.change(function() {
+			var filters = $(this).val();
+	
+			$container.isotope({
+				filter: filters
+			});
+		});
+	  
+		// Portfolio Filtering
+		var $optionSets = $('#filters .option-set'),
+			$optionLinks = $optionSets.find('a');
+
+		$optionLinks.click(function(){
+				var $this = $(this);
+				// don't proceed if already selected
+				if ( $this.hasClass('selected') ) {
+				return false;
+			}
+			var $optionSet = $this.parents('.option-set');
+			$optionSet.find('.selected').removeClass('selected');
+			$this.addClass('selected');
+	  
+			// make option object dynamically, i.e. { filter: '.my-filter-class' }
+			var options = {},
+				key = $optionSet.attr('data-option-key'),
+				value = $this.attr('data-option-value');
+			// parse 'false' as false boolean
+			value = value === 'false' ? false : value;
+			options[ key ] = value;
+			if ( key === 'layoutMode' && typeof changeLayoutMode === 'function' ) {
+			  // changes in layout modes need extra logic
+			  changeLayoutMode( $this, options )
+			} else {
+			  // otherwise, apply new options
+			  $container.isotope( options );
+			}
+			return false;
+		});
+
+	});
+	
+	portfolio();
+});
+</script>
+</body>
+</html>
