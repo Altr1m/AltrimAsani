@@ -100,7 +100,7 @@ section {background: #DAD8D4;}
 /* 3. Header */
 /*--------------------------------------------------------------------- */
 
-#header {width: 100%; height: 780px; background: url('../img/header_bg.jpg') no-repeat fixed center top #3E3E3E;}
+#header {width: 100%; height: 650px; background: url('../img/header_bg.jpg') no-repeat fixed center top #3E3E3E;}
 
 #header.video {background: transparent;}
 
@@ -676,7 +676,13 @@ html, body {height: 100%;}
 	
 	.name-area h1 {padding: 22px 0; width: 100%;}
 	
-	.name-area {position: relative; margin: 0 auto; text-align: center; width: 92%;}
+	.name-area {
+        position: relative; 
+        margin: 0 auto; 
+        text-align: center; 
+        width: 92%;
+        margin-top: -340px;
+        }
 	
 	.quote {width: auto; margin: 0;}
 	
@@ -686,7 +692,13 @@ html, body {height: 100%;}
 	
 	.quote .white-bullet-right {display: none;}
 	
-	.contact-details {position: relative; margin-left: -50%; padding: 70px 0 0 50%; width: 150%; height: 750px;}
+	.contact-details {
+        position: relative; 
+        margin-left: -50%; 
+        padding: 70px 0 0 50%; 
+        width: 150%; 
+        height: 340x;
+        }
 	
 	.contact-details li {width: 420px;}
 
