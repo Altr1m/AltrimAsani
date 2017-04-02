@@ -1,12 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="altrimasani" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.phonegap.altrimasani" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Altrim Asani</name>
     <description>
         Altrim Asani - Personal APP
     </description>
     <author email="altr1m.asan1@gmail.com" href="http://altrim-asani.com">
         Altrim Asani
-		Web, Software and Mobile APP Developer
     </author>
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
